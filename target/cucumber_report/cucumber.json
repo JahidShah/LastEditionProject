@@ -1,0 +1,83 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User login validation",
+        "description": "",
+        "id": "new-login;user-login-validation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7595312500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigate to home page",
+            "match": {
+              "location": "Login_Steps.userNavigateToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1314861000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on sign_in link",
+            "match": {
+              "location": "Login_Steps.userClicksOnSignInLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 395896800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User input email address and password",
+            "match": {
+              "location": "Login_Steps.user_input_email_address_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 668206700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on sign_in button",
+            "match": {
+              "location": "Login_Steps.user_clicks_on_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94123000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User is on account page",
+            "match": {
+              "location": "Login_Steps.user_is_on_account_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "New login",
+    "description": "",
+    "id": "new-login",
+    "keyword": "Feature",
+    "uri": "src\\test\\resources\\Features\\login.feature",
+    "tags": []
+  }
+]
